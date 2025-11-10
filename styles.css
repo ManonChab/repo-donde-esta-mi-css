@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DBD2E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    text-align: center;
+    background-color: whitesmoke;
+    background-size:auto;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.title{
+    margin: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.subtitle{
+    margin: 15px;
+    font-weight: bold;
+}
+.social-login{
+    margin: 15px;
+}
+img{
+    inline-size: 35px;
+    margin: 10px;
+}
+.google-btn{
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    padding: 5px;
+}
+.fb-btn{
+    border-radius: 10px;
+    border-color: rgb(20, 105, 185);
+    border-width: 3px;
+    size: 15px ;
+    padding: 5px;
+}
+.btn-text{
+    float:right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.or{
+    margin: 15px;
+    border-bottom: 1px solid #888;
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-weight: bold;
+    }
+.or span{
+    background: whitesmoke;
+    padding:0 10px;    
+}
+.email-login{
+    margin: 15px;
+}
+.cta-btn{
+    margin: 15px;
+}
+a {
+  text-decoration: none;
+}
+    
